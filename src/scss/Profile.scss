@@ -1,0 +1,44 @@
+.profile{
+    margin: 0 10px 10px;
+    .profile-column-header{
+        color: #B19CD9;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 6px;
+        &-relation{
+            width: 40%;
+        }
+        &-name,&-tob,&-dob{
+            width: 20%;
+        }
+    }
+    &-card{
+        font-size: 12px;
+        justify-content: space-between;
+        display: flex;
+        box-shadow: 0 0 3px 0 rgb(0 0 0 / 0.2);
+        margin: 8px 0;
+        padding: 14px 6px;
+        &-edit, &-delete{
+            width: 10%;
+            img{
+                width: 16px;
+            }
+        }
+        &-name,&-tob,&-dob,&-relation{
+            width: 20%;
+        }
+    }
+    &-add-new{
+        justify-content: center;
+        display: flex;
+        &-button{
+            background-color: orange;
+            border: none;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+    }
+}

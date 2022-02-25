@@ -1,0 +1,66 @@
+.profile-header-wrapper{
+    padding: 0 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background: white;
+    top: 0;
+    .profile-header{
+        display: flex;
+        max-height: 56px;
+        justify-content: space-between;
+        &-back{
+            align-self: center;
+            width: 33%;
+        }
+        &-icon{
+            width: 33%;
+        }
+        &-logout{
+            align-self: center;
+            width: 24%;
+            button{
+                border: 1px solid orange;
+                background-color: white;
+                border-radius: 3px;
+                padding: 5px 10px;
+            }
+        }
+    }
+    .profile-sub-header{
+        box-shadow: 0px 15px 10px -15px rgb(0 0 0 / 0.2);
+        display: flex;
+        justify-content: space-between;
+        &-myprofile{
+            width: 50%;
+            color: orange;
+            text-align: center;
+            padding-bottom: 8px;
+            border-bottom: 2px solid orange;
+        }
+        &-history{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    .profile-header-nav{
+        display: flex;
+        font-size: 13px;
+        margin-top: 10px;
+        justify-content: space-between;
+        box-shadow: 0 0 3px 0 rgb(0 0 0 / 0.2);
+        border-radius: 5px;
+        &-basic{
+            text-align: center;
+            width: 50%;
+            padding: 8px 0 8px 8px;
+        }
+        &-friends{
+            text-align: center;
+            width: 50%;
+            padding: 8px 0 8px 8px;
+            background: orange;
+            border-radius: 5px;
+        }
+    }
+}

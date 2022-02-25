@@ -1,0 +1,17 @@
+.ask-question-header{
+    display: flex;
+    max-height: 56px;
+    margin: 10px 10px 0;
+    justify-content: space-between;
+    &-settings{
+        align-self: center;
+        width: 20px;
+    }
+    &-icon{
+        width: 56px;
+    }
+    &-profile{
+        width: 24px;
+        align-self: center;
+    }
+}

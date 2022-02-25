@@ -1,0 +1,32 @@
+.ask-question{
+    padding: 10px;
+    &-heading{
+        margin-bottom: 6px;
+    }
+    &-category-heading{
+        margin: 8px 0;
+    }
+    &-category-select{
+        margin-bottom: 16px;
+    }
+    &-category-question{
+        padding-bottom: 16px;
+        position: sticky;
+        top: 110px;
+        padding-top: 12px;
+        z-index: 1;
+        background: white;
+    }
+    &-ideas-question{
+        padding: 10px;
+        font-size: 13px;
+        color: #606060;
+        border-bottom: 1px solid #606060;
+    }
+    &-help-text{
+        font-size: 12px;
+        color: #606060;
+        margin: 14px 0;
+        font-weight: 500;
+    }
+}

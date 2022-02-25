@@ -1,0 +1,19 @@
+.key-features{
+    font-size: 12px;
+    padding: 8px;
+    background: #FEDFC9;
+    line-height: 1;
+    ul{
+        padding-left: 0;
+        color: #ff8c00;
+        margin: 0;
+        li{
+            margin-left: 12px;
+            margin-top: 2px;
+            span{
+                position: relative;
+                left: -3px;
+            }
+        }
+    }
+}

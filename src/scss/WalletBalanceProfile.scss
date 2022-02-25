@@ -1,0 +1,22 @@
+.wallet-balance-profile{
+    background-color: #B19CD9;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    margin: 20px 10px;
+    border-radius: 5px;
+    &-add-money{
+        background: white;
+        color: #B19CD9;
+        padding: 5px;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 700;
+        border-radius: 7px;
+        margin-left: auto;
+    }
+}

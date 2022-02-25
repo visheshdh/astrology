@@ -1,0 +1,24 @@
+.ask-question-footer{
+    background-color: #8A2BE2;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    &-add-money{
+        background: white;
+        color: #8A2BE2;
+        padding: 5px;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 700;
+        border-radius: 7px;
+    }
+}
