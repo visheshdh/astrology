@@ -31,6 +31,7 @@ const Profile = ()=>{
         setRelatives(relatives)
         console.log('ssssssssssssssssss', resp)
     }
+    console.log('relatives', relatives)
     return (
         <div className="profile">
             {relatives && relatives.length <= 0 && <div>No Relatives fetched by api</div>}

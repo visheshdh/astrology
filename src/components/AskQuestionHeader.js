@@ -10,7 +10,7 @@ const AskQuestionHeader = ()=>{
         <div className="ask-question-header">
             <div className="ask-question-header-settings"><img src={hamburger}></img></div>
             <div className="ask-question-header-icon"><img src={icon}></img></div>
-            <div className="ask-question-header-profile"><Link to="/profile"><img src={profile}></img></Link></div>
+            <div className="ask-question-header-profile"><Link to="/view-profile"><img src={profile}></img></Link></div>
         </div>
     </header>
 }
