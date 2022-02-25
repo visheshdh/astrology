@@ -22,14 +22,11 @@ const Profile = ()=>{
             resp.data.data && setRelatives(resp.data.data.allRelatives)
         })()
     }, []);
-    console.log(relatives)
     const handleDelete = async (uuid, ind)=>{
         window.confirm('Do you really want to delete')
         const resp = await axios.post(`${apiUrl}relative/delete/${uuid}`,{}, option);
         relatives.splice(ind, 1)
-        console.log(relatives)
-        setRelatives(relatives)
-        console.log('ssssssssssssssssss', resp)
+        setRelatives([...relatives])
     }
     console.log('relatives', relatives)
     return (
